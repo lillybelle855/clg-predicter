@@ -26,7 +26,7 @@ def generate_pdf(df):
     pdf.set_auto_page_break(auto=True, margin=10)
 
     pdf.set_font('Arial', 'B', 14)
-    pdf.cell(0, 10, 'Vamsi Journey Predictor - AP EAPCET Results', ln=True, align='C')
+    pdf.cell(0, 10, 'Vamsi Journey Predictor - AP EAPCET ', ln=True, align='C')
     pdf.ln(3)
 
     pdf.set_font('Arial', '', 8)
